@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.hospital{
+margin-top: 1cm;
+padding: 1cm;
+height: 400px;
+background-image: url(../img/fondo3.jpg);
+display: flex;
+justify-content: center;
+border: 1px solid #030303;
+.hospitalTitle{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1cm;
+}
+.parrafoHospital{
+    margin-top: 0.5cm;
+    padding: 0.5cm;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7cm;    
+    font-style: oblique;
+    font-weight: bold;
+}
+.imagenHospital{
+    border: 1px solid #030303;
+    border-radius: 40px;
+}
+
+}
+
+.disciplinas{
+    margin-top: 0.5cm;
+    padding: 0.5cm;
+    background-image: url(../img/fondo1.jpg);
+    border: 1px solid #030303;
+    .disciplinasTitle{
+        font-family: 'Permanent Marker', cursive;
+    font-size: 1cm;
+    }
+    .parrafoDis{
+        margin-top: 0.5cm;
+        padding: 0.5cm;
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.7cm;    
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .sectionDisciplinas{
+        display: flex;
+        justify-content: space-around;
+    .sectionLogo2{
+        margin-top: 0.5cm;
+        padding: 0.5cm;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+        .service1{
+          margin-top: 0.5cm;
+          padding: 0.5cm;
+          
+          font-family: 'Oswald', sans-serif;
+          font-size: larger;    
+          font-style: oblique;
+          font-weight: bold;
+        
+        }
+      }
+    }
+}
+
+.consultorios{
+margin-top: 1cm;
+padding: 1cm;
+height: 400px;
+background-image: url(../img/fondo3.jpg);
+display: flex;
+justify-content: center;
+gap: 100px;
+border: 1px solid #030303;
+.consultoriosOne{
+    display: flex;
+    flex-direction: column;
+    .consultoriosTitle{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1cm;
+    }
+    .titleConsultorios{
+    margin-top: 0.5cm;
+    padding: 0.5cm;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7cm;    
+    font-style: oblique;
+    font-weight: bold;
+    width: 400px;
+}
+}
+.imgConsultorios{
+   margin-bottom: 00.5cm;
+   padding-left: 400px;
+ .imgConsulto{
+    border: 1px solid #030303;
+    border-radius: 40px;
+ }
+}
+}

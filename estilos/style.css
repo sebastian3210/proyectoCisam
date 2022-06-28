@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 2.5cm;
+  background-image: linear-gradient(45deg, white 3%, #2097ac 97%);
+}
+
+header li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 0.7cm;
+}
+
+.bannerPrincipal {
+  width: 1519px;
+  height: 400px;
+  margin: auto;
+  margin-top: 1cm;
+  border-style: solid;
+  padding-top: 4cm;
+  -webkit-animation: banner 10s infinite;
+          animation: banner 10s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes banner {
+  0%, 30% {
+    background-image: url(../img/bannerentrada1.jpg);
+    opacity: 1;
+  }
+  31%, 34% {
+    opacity: 0.1;
+  }
+  35%, 65% {
+    background-image: url(../img/banner2.jpg);
+    opacity: 1;
+  }
+  66%, 69% {
+    opacity: 0.1;
+  }
+  70%, 100% {
+    background-image: url(../img/banner3.jpg);
+    opacity: 1;
+  }
+}
+
+@keyframes banner {
+  0%, 30% {
+    background-image: url(../img/bannerentrada1.jpg);
+    opacity: 1;
+  }
+  31%, 34% {
+    opacity: 0.1;
+  }
+  35%, 65% {
+    background-image: url(../img/banner2.jpg);
+    opacity: 1;
+  }
+  66%, 69% {
+    opacity: 0.1;
+  }
+  70%, 100% {
+    background-image: url(../img/banner3.jpg);
+    opacity: 1;
+  }
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.presentacion {
+  margin-top: 1cm;
+  padding: 1cm;
+  background-image: url(../img/fondo3.jpg);
+}
+
+.presentacion .titulo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.parrafoOne {
+  margin: auto;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-style: oblique;
+}
+
+.sectionServicios {
+  margin-top: 1cm;
+  padding: 1cm;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.sectionServicios .servicios {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.parrafoTwo {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7cm;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.sectionLogo0 {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionLogo0 .sectionLogo1 {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.sectionLogo0 .sectionLogo1 .service {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.logoA {
+  font-size: 80px;
+}
+
+.logoA i:hover {
+  color: aqua;
+}
+
+.sectionTestimonio {
+  background-image: url(../img/fondo1.jpg);
+  padding: 1cm;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonio {
+  font-size: 1cm;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.conteinerSlide {
+  width: 800px;
+  height: 1000px;
+}
+
+.testi {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.conteinerTitle1 {
+  background-color: black;
+  height: 2cm;
+  padding: 0.5cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteinerTitle1 .obrasSociales {
+  font-size: 1cm;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.img-obras {
+  margin-top: 1cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer {
+  margin-top: 1cm;
+  padding: 1cm;
+  background-color: black;
+}
+
+footer h5 {
+  font-size: 1cm;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+footer h6 {
+  margin-top: 0.5cm;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+footer .redes {
+  padding: 1cm;
+}
+
+footer .redes .redesOne {
+  font-size: 1.5cm;
+}
+
+.quienesSomos {
+  background-image: url(../img/fondo3.jpg);
+  padding: 70px;
+  height: 400px;
+}
+
+.quienesSomos .quienesSomos2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.quienesSomos .parrafoInst1 {
+  padding: 45px;
+}
+
+.quienesSomos .parrafoInst1 .parrafoInst {
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.staff {
+  background-color: whitesmoke;
+}
+
+.staff .staffTitle {
+  background-color: black;
+  height: 2cm;
+  padding: 0.5cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.staff .staffTitle .titleStaff {
+  font-size: 1cm;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.personal {
+  margin-top: 1cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.personal .doctor {
+  border-radius: 30px;
+  -webkit-filter: sepia(#1e1e28);
+          filter: sepia(#1e1e28);
+}
+
+.personal .nombreStaff {
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.footerInst {
+  margin-top: 0;
+}
+
+.hospital {
+  margin-top: 1cm;
+  padding: 1cm;
+  height: 400px;
+  background-image: url(../img/fondo3.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #030303;
+}
+
+.hospital .hospitalTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.hospital .parrafoHospital {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7cm;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.hospital .imagenHospital {
+  border: 1px solid #030303;
+  border-radius: 40px;
+}
+
+.disciplinas {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  background-image: url(../img/fondo1.jpg);
+  border: 1px solid #030303;
+}
+
+.disciplinas .disciplinasTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.disciplinas .parrafoDis {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7cm;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.disciplinas .sectionDisciplinas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.disciplinas .sectionDisciplinas .sectionLogo2 {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.disciplinas .sectionDisciplinas .sectionLogo2 .service1 {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.consultorios {
+  margin-top: 1cm;
+  padding: 1cm;
+  height: 400px;
+  background-image: url(../img/fondo3.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+  border: 1px solid #030303;
+}
+
+.consultorios .consultoriosOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.consultorios .consultoriosOne .consultoriosTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.consultorios .consultoriosOne .titleConsultorios {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7cm;
+  font-style: oblique;
+  font-weight: bold;
+  width: 400px;
+}
+
+.consultorios .imgConsultorios {
+  margin-bottom: 00.5cm;
+  padding-left: 400px;
+}
+
+.consultorios .imgConsultorios .imgConsulto {
+  border: 1px solid #030303;
+  border-radius: 40px;
+}
+
+.cursos {
+  margin-top: 1cm;
+  padding: 1cm;
+  height: 400px;
+  background-image: url(../img/fondo3.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+  border: 1px solid #030303;
+}
+
+.cursos .cursosDes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cursos .cursosDes .cursosTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.cursos .cursosDes .parrafoCursos {
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7cm;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.cursos .videoCursos {
+  border: 1px solid #030303;
+  border-radius: 3%;
+}
+
+.formulario {
+  margin-top: 1cm;
+  padding: 1cm;
+  height: 700px;
+  background-image: url(../img/fondo1.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+  border: 1px solid #030303;
+}
+
+.formulario .formTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1cm;
+}
+
+.formulario .formConteiner {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7cm;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

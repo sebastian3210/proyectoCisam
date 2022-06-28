@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.cursos{
+    margin-top: 1cm;
+    padding: 1cm;
+    height: 400px;
+    background-image: url(../img/fondo3.jpg);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border: 1px solid #030303;
+    .cursosDes{
+        display: flex;
+    flex-direction: column;
+    .cursosTitle{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1cm;
+    }
+    .parrafoCursos{
+        margin-top: 0.5cm;
+        padding: 0.5cm;
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.7cm;    
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    }
+    .videoCursos{
+        border: 1px solid #030303;
+        border-radius: 3%;
+    }
+}

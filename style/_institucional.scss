@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.quienesSomos{
+    background-image: url(../img/fondo3.jpg);
+    padding: 70px;
+    height: 400px;
+    .quienesSomos2{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1cm;
+    }
+    .parrafoInst1{
+        padding: 45px;
+        .parrafoInst{
+            font-family: 'Oswald', sans-serif;
+            font-size: larger;    
+            font-style: oblique;
+            font-weight: bold;
+        }
+    }
+}
+.staff{
+    background-color: whitesmoke;
+
+    .staffTitle{
+    background-color: black;
+    height: 2cm;
+    padding: 0.5cm;
+    display: flex;
+    justify-content: center;
+    .titleStaff{
+        font-size: 1cm;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+}
+}
+.personal{
+    margin-top: 1cm;
+    display: flex;
+    justify-content: space-around;
+    
+    .doctor{
+        border-radius: 30px;
+        filter: sepia(rgb(30, 30, 40));
+    }
+    .nombreStaff{
+        font-family: 'Oswald', sans-serif;
+      font-size: larger;    
+      font-weight: bold;
+    }
+}
+
+.footerInst{
+    margin-top: 0;
+}
