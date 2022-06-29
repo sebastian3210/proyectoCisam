@@ -9,103 +9,185 @@
     margin: 0;
 } 
 
-.header{
-    grid-area: header;
-  }
-  .main{
-    grid-area: main;
-  }
-  .footer{
-    grid-area: footer;
+.conteinerOne{
+  grid-area: one;
+}
+.conteinerTwo{
+  grid-area: two;
+}
+.conteinerThree{
+  grid-area: three;
+}
+.conteinerFour{
+  grid-area: four;
+}
+
+
+@media only screen and (max-width: 575px){
+  .conteiner-father{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four";
+    height: 1500px;
+    width: auto;
+    gap: 200px;
+    
+
+  
   }
   
-  @media only screen and (max-width:550px){
-   .conteiner-father{ 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
-    grid-area: 
-    "header"
-    "main"
-    "footer";
-  }
-  .bannerPrincipal{
+  .conteinerOne{
     width: auto;
-    h1{
+    height: auto;
+    nav{
       width: auto;
-      font-size: xx-large;
+      display: flex;
+      justify-content: flex-start;
     }
   }
-
-  .header{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: row;
-    flex-direction: column none;
-  }
-  nav{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  }
-.presentacion{
+  .conteinerTwo{
     width: auto;
-    height: 400px;
-
-}
-.formulario{
-    width: auto;
-    height: 1200px;
-}
-
+    height: 1fr;
+    .bannerPrincipal{
+      width: auto;
+      .h1{
+        font-size: larger;
+      }
+      
+    }
+ 
   }
+  .conteinerThree{
+    width: auto;
+    height: 1fr;
+    .presentacion{
+      width: auto;
+      height: auto;
+      .parrafoOne{
+        width: auto;
+        font-size: small;
+      }
+    }
+  }
+  .conteinerFour{
+    width: auto;
+  }
+  }
+  
 
-  @media only screen and (max-width:750px){
-    .conteiner-father{ 
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr, 1fr, 1fr;
-     grid-area: 
-     "header"
-     "main"
-     "footer";
-   }
-   .bannerPrincipal{
-     width: auto;
-     h1{
-       width: auto;
-       font-size: xx-large;
-     }
-   }
+@media only screen and (max-width: 767px){
+  .conteiner-father{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four";
+    height: 1500px;
+    width: auto;
+    gap: 200px;
+    
+
+  
+  }
+  
+  .conteinerOne{
+    width: auto;
+    height: auto;
+    nav{
+      width: auto;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  .conteinerTwo{
+    width: auto;
+    height: 1fr;
+    .bannerPrincipal{
+      width: auto;
+    .h1{
+      font-size: larger;
+    }
+      
+    }
  
-   .header{
-     display: flex;
-     justify-content: end;
-     align-items: center;
-     flex-direction: row;
-     flex-direction: column none;
-     width: auto;
-     height: auto;
-   }
-   nav{
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     grid-template-rows: auto;
-     width: auto;
-     height: auto;
-   }
- .presentacion{
-     width: auto;
-     height: 430px;
+  }
+  .conteinerThree{
+    width: auto;
+    height: 1fr;
+    .presentacion{
+      width: auto;
+      height: auto;
+      .parrafoOne{
+        width: auto;
+        font-size: small;
+      }
+    }
+  }
+  .conteinerFour{
+    width: auto;
+  }
+}
+@media only screen and (max-width: 991px){
+  .conteiner-father{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four";
+    height: 1500px;
+    width: auto;
+    gap: 200px;
+    
+
+  
+  }
+  
+  .conteinerOne{
+    width: auto;
+    height: auto;
+    nav{
+      width: auto;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  .conteinerTwo{
+    width: auto;
+    height: 1fr;
+    .bannerPrincipal{
+      width: auto;
+      
+      .h1{
+        font-size: medium;
+      }
+
+    }
  
- }
- .formulario{
-     width: auto;
-     height: 1200px;
- }
- 
-   }
-
-
-
-
+  }
+  .conteinerThree{
+    width: auto;
+    height: 1fr;
+    .presentacion{
+      width: auto;
+      height: auto;
+      .parrafoOne{
+        width: auto;
+        font-size: small;
+      }
+    }
+  }
+  .conteinerFour{
+    width: auto;
+  }
+}
